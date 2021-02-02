@@ -1,0 +1,150 @@
+
+.main {
+    width: 70%;
+    margin: 0 auto;
+    margin-left: 275px;
+}
+
+header .nav {
+    margin-top: 25px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 150px;
+    background: url(image-gallery/coffee.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.social {
+    width: 70px;
+    padding: 15px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#facebook:hover, 
+#instagram:hover, 
+#twitter:hover {
+    color: grey;
+}
+
+#subheader {
+    font-family: "Quicksand";
+    font-size: 14px;
+    font-style: italic;
+    color: rgb(49, 49, 49);
+    padding-bottom: 15px;
+    border-bottom: 1px solid grey;
+}
+
+
+.header-img {
+    position: relative;
+    background-size: 10%;
+    width: 100%;
+    margin: 0% auto;
+    margin-top: 25px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background: url(image-gallery/header-img.jpeg)
+    
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.box {
+    width: 312px;
+    height: 300px;
+    background-color: #fafafa;
+}
+
+.box p {
+    font-family: "Quicksand";
+    font-size: 14px;
+    color: rgb(49, 49, 49);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.box span {
+    font-family: "Quicksand";
+    font-size: 12px;
+    font-style: italic;
+    color: rgb(49, 49, 49);
+}
+
+#hotdog {
+    text-align: center;
+}
+
+h1 {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+    font-family: 'Tinos', serif;
+    color: grey;
+}
+
+.box hr {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(102, 102, 102);
+}
+
+.mapouter {
+    margin: 0% auto;
+}
+
+.sidenav {
+    height: 100%;
+    width: 125px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    padding-right: 25px;
+    background-color: white;
+    overflow-x: hidden; 
+    padding-top: 50px;
+    font-family: "Quicksand";
+    font-size: 14px;
+  }
+
+.sidenav a {
+    color: inherit; 
+    text-decoration: none;
+}
+
+.sidenav a:hover {
+    color: grey;
+}
+
+ul {
+    list-style-type: none; 
+}
+
+/* .sidebar-photos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#pic1 {
+    width: 200px;
+    height: 200px;
+    background: url(image-gallery/pic1.jpg)
+} */
